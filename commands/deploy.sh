@@ -4,7 +4,8 @@
 set -e
 
 # build
-npm run build
+# npm run build
+yarn build
 
 # navigate into the build output directory
 cd ../docs/.vuepress/dist
@@ -14,12 +15,7 @@ cd ../docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy with vuepress'
-
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
+git commit -m 'deploy with vuepress script'
 git push -f https://github.com/seonwook/blog.git master:gh-pages
 
 cd -

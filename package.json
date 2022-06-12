@@ -3,26 +3,30 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "doc": "vuepress dev docs",
-    "build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seonwook/blog.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/seonwook/blog/issues"
-  },
-  "homepage": "https://github.com/seonwook/blog#readme",
   "directories": {
     "doc": "docs"
   },
+  "scripts": {
+    "docs": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [],
+  "repository": "https://github.com/seonwook/blog.git",
+  "author": "seonwook",
+  "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.5.2",
+    "@vuepress/plugin-google-analytics": "^1.1.0",
+    "@vuepress/plugin-last-updated": "^1.8.2",
+    "@vuepress/plugin-pwa": "^1.8.2",
+    "husky": "^4.3.8",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.0",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-reading-progress": "^1.0.10"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
   }
 }
