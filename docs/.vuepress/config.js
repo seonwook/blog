@@ -28,8 +28,8 @@ module.exports = {
     locales: {
       '/': {
         lang: 'ko',
-        title: 'Cracking Vue.js',
-        description: 'JavaScript, Vue.js, Nuxt.js',
+        title: '개발자 부부의 Blog',
+        description: '알게 된 지식을 정리해 놓은 사이트 입니다.',
       },
     },
     themeConfig: {
@@ -44,7 +44,7 @@ module.exports = {
           selectText: '언어',
           label: '한국어',
           ariaLabel: '언어',
-          editLinkText: '깃헙에서 문서 수정하기',
+        //   editLinkText: '깃헙에서 문서 수정하기',
           lastUpdated: '최종 변경일',
         //   serviceWorker: {
         //     updatePopup: {
@@ -65,19 +65,38 @@ module.exports = {
           sidebar: [
             '/textbook',
             {
-              title: 'JavaScript Fundamentals',
+              title: 'JavaScript',
               collapsable: true,
               children: [
-                '/js/variable',
-                '/js/string',
+                // '/js/variable',
               ],
             },
             {
-              title: 'ES6+',
+              title: 'Vue',
               collapsable: true,
               children: [
-                '/es6+/const-let',
-                '/es6+/fat-arrow',
+                // '/vue/const-let',
+              ],
+            },
+            {
+              title: 'Java',
+              collapsable: true,
+              children: [
+                // '/vue/const-let',
+              ],
+            },
+            {
+              title: 'Tool',
+              collapsable: true,
+              children: [
+                // '/vue/const-let',
+              ],
+            },
+            {
+              title: 'Etc',
+              collapsable: true,
+              children: [
+                // '/vue/const-let',
               ],
             },
           ],

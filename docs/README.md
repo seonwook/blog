@@ -1,10 +1,10 @@
 ---
-title: kim's Blog
+title: 개발자 부부의 Blog
 lang: en-US
-home: true
+home: false
 heroImage: logo.png
 actionText: Get Started →
-actionLink: /textbook
+actionLink: /textbook/
 # features:
 # - title: Simplicity First
 #   details: Minimal setup with markdown-centered project structure helps you focus on writing.
