@@ -44,7 +44,7 @@ module.exports = {
           selectText: '언어',
           label: '한국어',
           ariaLabel: '언어',
-        //   editLinkText: '깃헙에서 문서 수정하기',
+          editLinkText: '깃헙에서 문서 수정하기',
           lastUpdated: '최종 변경일',
         //   serviceWorker: {
         //     updatePopup: {
